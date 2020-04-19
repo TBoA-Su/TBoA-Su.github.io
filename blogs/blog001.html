@@ -1,143 +1,174 @@
 <!DOCTYPE html>
-<html> 
-<head>
-    <title>TBoA_如何在GitHub上搭建一个网站</title>
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Blog Template">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="../TBoA-Su.ico"> 
-    
-    <!-- FontAwesome JS-->
-    <script defer src="../assets/js/all.js"></script>
-    
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="../assets/css/monokai-sublime.min.css">
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="../assets/css/theme-2.css">
-    
+<html>
 
-</head> 
+	<head>
+		<title>TBoA_如何在GitHub上搭建一个网站</title>
 
-<body>
-    
-    <header class="header text-center">	    
-	    <h1 class="blog-name pt-lg-4 mb-0"><a href="../index.html">TBoA-Su</a></h1>
-        
-	    <nav class="navbar navbar-expand-lg navbar-dark" >
-           
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="如何在GitHub上搭建一个网站">
+		<meta name="author" content="TBoA">
+		<link rel="shortcut icon" href="../TBoA-Su.ico">
+
+		<!-- FontAwesome JS-->
+		<script defer src="../assets/js/all.js"></script>
+
+		<!-- Plugin CSS -->
+		<link rel="stylesheet" href="../assets/css/monokai-sublime.min.css">
+
+		<!-- Theme CSS -->
+		<link id="theme-style" rel="stylesheet" href="../assets/css/theme.css">
+
+	</head>
+
+	<body>
+
+		<header class="header text-center">
+			<h1 class="blog-name pt-lg-4 mb-0"><a href="../index.html">TBoA-Su</a></h1>
+
+			<nav class="navbar navbar-expand-lg navbar-dark">
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div id="navigation" class="collapse navbar-collapse flex-column" >
-				<div class="profile-section pt-3 pt-lg-0">
-				    <img class="profile-image mb-3 rounded-circle mx-auto" src="../assets/images/TBoA.Su.jpg" alt="image" >			
-					
-					<div class="bio mb-3">Hi, my name is TBoA-Su.<br><a href="../about.html">Find out more about me</a></div><!--//bio-->
-					<ul class="social-list list-inline py-3 mx-auto">
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
-			        </ul><!--//social-list-->
-			        <hr> 
-				</div><!--//profile-section-->
-				
-				<ul class="navbar-nav flex-column text-left">
-					<li class="nav-item">
-					    <a class="nav-link" href="../index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-					    <a class="nav-link" href="../blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a>
-					</li>
-					<li class="nav-item">
-					    <a class="nav-link" href="../about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
-					</li>
-				</ul>
-				
-				<div class="my-2 my-md-3">
-					
-				    <a class="btn btn-primary" target="_blank" onclick="getInTouch()">Get in Touch</a>
-				    
+				<div id="navigation" class="collapse navbar-collapse flex-column">
+					<div class="profile-section pt-3 pt-lg-0">
+						<img class="profile-image mb-3 rounded-circle mx-auto" src="../assets/images/TBoA.Su.jpg" alt="image">
+
+						<div class="bio mb-3">Hi, my name is TBoA-Su.<br>
+							<a href="../about.html">Find out more about me</a>
+						</div>
+						<!--//bio-->
+						<ul class="social-list list-inline py-3 mx-auto">
+							<li class="list-inline-item">
+								<a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><i class="fab fa-github-alt fa-fw"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><i class="fab fa-codepen fa-fw"></i></a>
+							</li>
+						</ul>
+						<hr />
+						<!--//social-list-->
+					</div>
+					<!--//profile-section-->
+
+					<ul class="navbar-nav flex-column text-left">
+						<li class="nav-item">
+							<a class="nav-link" href="../index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+						</li>
+					</ul>
+
+					<div class="my-2 my-md-3">
+
+						<a class="btn btn-primary" target="_blank" onclick="getInTouch()">Get in Touch</a>
+
+					</div>
 				</div>
-			</div>
-		</nav>
-    </header>
-    
-    <div class="main-wrapper">
-	    
-	    <article class="blog-post px-3 py-5 p-md-5">
-		    <div class="container">
-                <!--title-->
-			    <header class="blog-post-header">
-				    <h2 class="title mb-2">如何在GitHub上搭建一个网站</h2>
-				    <div class="meta mb-3"><span class="date">2020</span><span class="time">04</span><span class="comment"><a>14</a></span></div>
-			    </header>
-                
-                <!--body-->
-			    <div class="blog-post-body">
-                    <!--image-->
-				    <figure class="blog-banner">
-				        <a href="#"><img class="img-fluid" src="../assets/images/blog/blog-post-thumb-1.jpg" alt="image"></a>
-                    </figure>
+			</nav>
+		</header>
 
-                    <blockquote class="blockquote m-lg-5 py-3 pl-4 px-lg-5">
-						<p class="mb-2">说起GitHub，想必大家并不陌生，然而，个人博客并不一定大家都有，因为这不仅要支付一笔费用给博客的服务器、域名等等，因此，有些想要自己搭建一个博客的人很是烦恼，下面我就将向大家一步一步地自己搭建一个在GitHub上个人博客(注:这里先说明一下，GitHub不支持运行php!)</p>
-                    </blockquote>
-                    
-                    <h1>第一步</h1>
-                    <p>首先，你要有一个<a href="https://github.com/">GitHub</a>的账号，如果没有就去注册一个，然后登录</p>
+		<div class="main-wrapper">
 
-                    <h1>第二步</h1>
-                    <p>接着，你要新建一个GitHub的仓库，仓库的名称是你GitHub的名字“xxx”加上“.github.io”,如图:</p>
-                    <p>算了，这暂时只是一个测试吧。。。</p>
-				    
-				   
-			    </div>
-                    
-                
-                
-				
-				
-		    </div><!--//container-->
-	    </article>
-        
-	    <footer class="footer text-center py-2 theme-bg-dark">
-		   
-	        <small class="copyright">TBoA-Su</small>
-		   
-	    </footer>
-    
-    </div><!--//main-wrapper-->
-    
-       
-    <!-- Javascript -->          
-    <script src="../assets/plugins/jquery-3.3.1.min.js"></script>
-    <script src="../assets/plugins/popper.min.js"></script> 
-    <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
-    
-    <!-- Page Specific JS -->
-    <script src="../assets/js/highlight.min.js"></script>
+			<article class="blog-post px-3 py-5 p-md-5">
+				<div class="container">
+					<!--title-->
+					<header class="blog-post-header">
+						<h2 class="title mb-2">如何在GitHub上搭建一个网站</h2>
+						<div class="meta mb-3"><span class="date">2020</span><span class="time">04</span><span class="comment"><a>14</a></span></div>
+					</header>
 
-    <!-- Custom JS -->
-    <script src="../assets/js/blog.js"></script>
-    
-    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-	<script src="../assets/js/demo/style-switcher.js"></script>     
-	
-	<script>
-		function getInTouch(){
-			window.alert("MY EMAIL:2653106383@qq.com");
-		}
-	</script>   
-    
+					<!--body-->
+					<div class="blog-post-body">
+						<!--image-->
+						<figure class="blog-banner">
+							<a href="#"><img class="img-fluid" src="../assets/images/blog/blog-post-thumb-1.jpg" alt="image"></a>
+						</figure>
 
-</body>
-</html> 
+						<blockquote class="blockquote m-lg-5 py-3 pl-4 px-lg-5">
+							<p class="mb-2">说起GitHub，想必大家并不陌生，然而，个人博客并不一定大家都有，因为这不仅要支付一笔费用给博客的服务器、域名等等，因此，有些想要自己搭建一个博客的人很是烦恼，下面我就将向大家一步一步地自己搭建一个在GitHub上个人博客(注:这里先说明一下，GitHub不支持运行php!)</p>
+						</blockquote>
 
+						<h1>第一步</h1>
+						<p>首先，你要有一个
+							<a href="https://github.com/">GitHub</a>的账号，如果没有就去注册一个，然后登录</p>
+
+						<h1>第二步</h1>
+						<p>接着，你要新建一个GitHub的仓库，仓库的名称是你GitHub的名字“xxx”加上“.github.io”,如图:</p>
+						<img src="../assets/images/blog/blog-post-thumb-8.jpg" />
+
+						<h1>第三步</h1>
+						<p>下载GitHub桌面版，以及你要用的博客网页源码(不支持php)</p>
+						<img src="../assets/images/blog/blog-post-thumb-10.jpg" />
+
+						<h1>第四步</h1>
+						<p>登录并clone你新建的仓库到你指定的文件夹(指定文件夹应该是空的，绑定后会自动生成.git的文件夹)</p>
+						<img src="../assets/images/blog/blog-post-thumb-2.jpg" />
+
+						<h1>第五步</h1>
+						<p>把你要的网页相关文件放到那个文件夹，打开GitHub桌面版等一小会儿就会这样</p>
+						<img src="../assets/images/blog/blog-post-thumb-5.jpg" />
+
+						<h1>第六步</h1>
+						<p>在summary里随便写一些话(如介绍新上传变化优点之类的，当然也可以顺便写)，然后点击右边蓝色按钮上传(由于GitHub服务器在外国，所以中途可能会出现失败之类的，不用担心，重新点击上传)</p>
+						<img src="../assets/images/blog/blog-post-thumb-4.jpg" />
+
+						<h1>第七步</h1>
+						<p>打开浏览器，输入你那个仓库的名称(如:xxx.github.io)就可以看到你的博客已经部署掉GitHub上了，将网址分享给别人，别人就可以看到了(由于GitHub服务器在外国，所以访问速度会比较慢)</p>
+						<img src="../assets/images/blog/blog-post-thumb-2.jpg" />
+
+					</div>
+
+				</div>
+				<!--//container-->
+			</article>
+
+			<footer class="footer text-center py-2 theme-bg-dark">
+
+				<small class="copyright">TBoA-Su</small>
+
+			</footer>
+
+		</div>
+		<!--//main-wrapper-->
+
+		<!-- Javascript -->
+		<script src="../assets/plugins/jquery-3.3.1.min.js"></script>
+		<script src="../assets/plugins/popper.min.js"></script>
+		<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Page Specific JS -->
+		<script src="../assets/js/highlight.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="../assets/js/blog.js"></script>
+
+		<!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+		<script src="../assets/js/demo/style-switcher.js"></script>
+
+		<script>
+			function getInTouch() {
+				window.alert("MY EMAIL:2653106383@qq.com");
+			}
+		</script>
+
+	</body>
+
+</html>
