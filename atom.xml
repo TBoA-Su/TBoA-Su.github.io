@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://tboa-su.github.io</id>
+    <title>TBoA-Su</title>
+    <updated>2023-02-24T15:05:28.070Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://tboa-su.github.io"/>
+    <link rel="self" href="https://tboa-su.github.io/atom.xml"/>
+    <subtitle>啦啦啦&lt;br/&gt;TBoA_Su</subtitle>
+    <logo>https://tboa-su.github.io/images/avatar.png</logo>
+    <icon>https://tboa-su.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, TBoA-Su</rights>
+    <entry>
+        <title type="html"><![CDATA[Hello World!]]></title>
+        <id>https://tboa-su.github.io/post/001-hello-world/</id>
+        <link href="https://tboa-su.github.io/post/001-hello-world/">
+        </link>
+        <updated>2020-04-13T04:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="hello-world">Hello World!</h1>
+<p>HTML</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;    
+&lt;title&gt;Hello World&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;Hello World&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>JavaScript</p>
+<pre><code class="language-JavaScript">alert (&quot;Hello, World!&quot;);
+</code></pre>
+<p>C</p>
+<pre><code class="language-C">#include &lt;stdio.h&gt;
+int main()
+{
+    printf(&quot;Hello, World!&quot;);
+    return 0;
+}
+</code></pre>
+<p>C++</p>
+<pre><code class="language-C">#include&lt;iostream&gt;
+using namespace std;
+int main()
+{
+    cout&lt;&lt;&quot;Hello,World!&quot;&lt;&lt;endl;
+    return 0;
+}
+</code></pre>
+<p>Python</p>
+<pre><code class="language-Python">print(&quot;Hello World!&quot;)
+</code></pre>
+<p>Java</p>
+<pre><code class="language-Java">public class HelloWorld
+{
+    public static void main(String[] args)
+    { 
+        System.out.println( &quot;Hello, World!&quot; );
+    }
+}
+</code></pre>
+<p>Rust</p>
+<pre><code class="language-Rust">fn main() {
+    println!(&quot;Hello, world!&quot;);
+}
+</code></pre>
+<p>Kotlin</p>
+<pre><code class="language-Kotlin">fun main(args: Array&lt;String&gt;) 
+{
+    println(&quot;Hello, world!&quot;)
+}
+</code></pre>
+]]></content>
+    </entry>
+</feed>
